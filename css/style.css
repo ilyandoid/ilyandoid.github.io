@@ -108,7 +108,7 @@
 	text-transform: uppercase; 
   }
   .hero-avatar {
-	width: 450pxhero-header;
+	width: 450px;
 	height: 450px;
 	background-color: white;
 	border-radius: 50%;
@@ -336,7 +336,7 @@
 	  flex-direction: column;
 	}
 	.hero-text{
-			order: 1;
+	order: 1;
 	  text-align: center;
 	
 	}
