@@ -1,2 +1,0 @@
-# ilyandroid.github.io
-ilyandoid
