@@ -518,7 +518,7 @@
   
   .ant-carousel-element {
 	  
-	image:cover;
+	Object-fit:cover;
 	width: 270px;
 	text-align: center;
 	background-color: #779CCD;
