@@ -603,14 +603,6 @@
   }
   /* karusel*/
   
-  /* стили для элемента body */
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #fff;
-    height: 3000px;
-  }
-
   ol,
   ul,
   dl {
@@ -917,3 +909,95 @@
 	font-size: 100px;
 	text-align: center;
   }
+  .piloty{
+	  display:flex;
+	  margin: 10px;
+  }
+  .pilotimg{
+	justify-content: center;
+	display:flex;
+	margin: 5px;
+	object-fit: cover;
+	width:66%;
+  }
+  .pilotinf{
+	  text-align: center;
+	margin: 5px;
+	width:50%;
+}
+.pilot{
+	border-radius: 20px;
+	width: 75%;
+	box-shadow: 0px 0px 5px rgb(70, 70, 70);
+}
+
+
+
+
+
+.fond {
+	position:absolute;
+	padding-top:45px;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#f8b334;
+   }
+   .mymagicoverbox {
+	display:inline-block;
+	color:#ffffff;
+	padding:10px;
+	margin:10px;
+	cursor:pointer;
+	font-weight:300;
+	font-family:'Roboto';
+   }
+   .mymagicoverbox_fenetre {
+	z-index:9999;
+	position:fixed;
+	margin-left:50%;
+	top:100px;
+	text-align:center;
+	display:none;
+	padding:5px;
+	background-color:#ffffff;
+	color:#97BF0D;
+	font-style:normal;
+	font-size:20px;
+	font-weight:300;
+	font-family:'Roboto';
+   }
+   .mymagicoverbox_fenetreinterieur {
+	text-align:center;
+	overflow:auto;
+	padding:10px;
+	background-color:#ffffff;
+	color:#666666;
+	font-weight:400;
+	font-family:'Roboto';
+	font-size:17px;
+	border-top:1px solid #e7e7e7;
+	margin-top:10px
+   }
+   .mymagicoverbox_fermer {
+	color:#CB2025;
+	cursor:pointer;
+	font-weight:400;
+	font-size:14px;
+	font-style:normal
+	font-family:'Roboto';
+   }
+   #myfond_gris {
+	display: none;
+	background-color:#000000;
+	opacity:0.7;
+	width:100%;
+	height:100%;
+	z-index:9998;
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+   }
