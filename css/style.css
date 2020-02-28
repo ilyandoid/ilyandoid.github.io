@@ -50,12 +50,14 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-  }
+	}
+	
   .social-link{
 	height: 20px;
 	width: 20px;
 	margin-left: 10px;
-  }
+		}
+	
 
   .hero-content{
 
@@ -84,8 +86,8 @@
 	margin-bottom: 38px;
   }
   .button {
-	  text-decoration: none;
-	background: linear-gradient(180deg, rgb(25, 0, 243) 0%, rgb(25, 0, 255) 100%);
+ text-decoration: none;
+	background: blue;
 	box-shadow: 0px 0px 5px rgb(100,123,152);
 	border: none;
 	border-radius: 10px 10px 10px 10px;
@@ -95,10 +97,10 @@
 	color:white;
 	font-weight: bold;
 	text-transform: uppercase;
-	transition: 1.0s background;
+	transition: 0.5s background;
 	}
 	.button1 {
-		background: linear-gradient(180deg, rgb(25, 0, 243) 0%, rgb(25, 0, 255) 100%);
+		background: blue;
 		box-shadow: 0px 0px 5px rgb(100,123,152);
 		border: none;
 		border-radius: 10px 10px 10px 10px;
@@ -108,8 +110,12 @@
 		color:white;
 		font-weight: bold;
 		text-transform: uppercase;
+		transition: 0.5s background;
 		
-  }
+	}
+	.button1:hover {
+		background: purple;
+	}
   .button:hover{
 	background: purple;
 	box-shadow: 0px 0px 5px rgb(100,123,152);
@@ -132,8 +138,11 @@
 	background-position: center top;
 	background-size:cover;
 	border: 5px solid rgba(37, 135, 255, 0.548);
+	transition: 3s transform;
 	}
-
+	.hero-avatar:hover{
+		transform: rotate(360deg);
+	}
 	.ramka{
 		text-align: center;
 		background-color: rgba(14, 103, 211, 0.801);
@@ -160,7 +169,11 @@
   .features-item{
 	flex-basis: 30%;
 	margin-bottom: 63px;
-  }
+	transition: 0.5s transform;
+	}
+	.features-item:hover{
+		transform: scale(1.1);
+		}
   .features-title{
 	margin: 0px;
 	font-weight: bold;
@@ -300,6 +313,7 @@
   }
   .form-button{
 	width: 100%;
+	
 
   }
   .contacts-block{
@@ -414,7 +428,11 @@
 	}
 	.social-link{
 	  margin-left: 5px;
-	}
+		transition: 0.5s transform;
+		}
+	.social-link:hover{
+			transform: scale(1.1);
+			}
 	.hero-title{
 	  font-size: 24px;
 	  line-height: 28px;
@@ -996,6 +1014,6 @@ footer {
 	color: purple;
 }
 #elem:hover{
-transition: all 5.0s;	
+transition: all 0.5s;	
 }
 
