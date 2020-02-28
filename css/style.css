@@ -95,6 +95,7 @@
 	color:white;
 	font-weight: bold;
 	text-transform: uppercase;
+	transition: 1.0s background;
 	}
 	.button1 {
 		background: linear-gradient(180deg, rgb(25, 0, 243) 0%, rgb(25, 0, 255) 100%);
@@ -107,9 +108,10 @@
 		color:white;
 		font-weight: bold;
 		text-transform: uppercase;
+		
   }
   .button:hover{
-	background: linear-gradient(180deg, rgb(114, 0, 167)0%, rgb(114, 0, 167) 100%);
+	background: purple;
 	box-shadow: 0px 0px 5px rgb(100,123,152);
 	border: none;
 	border-radius: 10px 10px 10px 10px;
@@ -119,6 +121,7 @@
 	color:white;
 	font-weight: bold;
 	text-transform: uppercase;
+	
   }
   .hero-avatar {
 	width: 450px;
@@ -992,5 +995,7 @@ footer {
 .copy a:hover {
 	color: #8d7ba9;
 }
-
+#elem:hover{
+transition: all 5.0s;	
+}
 
