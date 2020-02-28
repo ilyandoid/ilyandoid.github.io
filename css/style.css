@@ -993,7 +993,7 @@ footer {
 }
 
 .copy a:hover {
-	color: #8d7ba9;
+	color: purple;
 }
 #elem:hover{
 transition: all 5.0s;	
