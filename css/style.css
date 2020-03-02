@@ -23,6 +23,7 @@
 	width: 90%;
 	max-width: 945px;
 	margin: 20px auto;
+
   }
   span{
  color:black;
@@ -31,6 +32,11 @@
 
 	padding-top: 64px;
 	padding-bottom: 92px;
+  }
+  .section1{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
   }
   .section-title{
 	text-align: center;
@@ -138,7 +144,7 @@
 	background-position: center top;
 	background-size:cover;
 	border: 5px solid rgba(37, 135, 255, 0.548);
-	transition: 3s transform;
+	transition: 1s transform;
 	}
 	.hero-avatar:hover{
 		transform: rotate(360deg);
@@ -193,6 +199,9 @@
   }
   footer{
 	background-color: #779CCD;
+  }
+	footer section{
+		background-color: #779CCD;
   }
   /*projects*/
 
@@ -327,7 +336,7 @@
   .contacts-data{
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 42px;
+	margin-bottom: 10px;
   }
   .contacts-phone, .contacts-mail{
 	flex-basis: 50%;
